@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example</groupId>
+  <artifactId>springCloud</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+
+  <name>springCloud</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <modules>
+  	<module>config-client</module>
+  	<module>config-server-git</module>
+  	<module>consumer-ribbon-hystrix</module>
+  	<module>eureka-consumer</module>
+  	<module>eureka-consumer-feign</module>
+  	<module>eureka-consumer-ribbon</module>
+  	<module>eureka-server</module>
+  	<module>hystrix-dashboard</module>
+  	<module>turbine</module>
+  	<module>turbine-amqp</module>
+  	<module>eureka-client1</module>
+  	<module>eureka-client2</module>
+  	<module>eureka-client-scheduled</module>
+  	<module>eureka-client-activiti</module>
+  	<module>SpringBootSessionDemo</module>
+  </modules>
+</project>
